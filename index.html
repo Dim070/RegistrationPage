@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" media="screen" href="media.css">
+   <title>homework_10</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <main class="content">
+         <h1 class="title">Регистрация</h1>
+         <div class="form">
+            <form>
+               <p class="form__input-item-email">Email</p>
+               <input class="form__input-email" type="email" name="email" placeholder="Введите email">
+               <span class="star-first">*</span>
+               <span class="field-email">Поле обязательно для заполнения</span>
+               <p class="form__input-item-password">Пароль</p>
+               <input class="form__input-password" type="password" name="password" placeholder="Введите пароль">
+               <span class="star-second">*</span>
+               <span class="field-password">Поле обязательно для заполнения</span>
+               <div class="form__checkbox-wrapper">
+                  <input class="form__input-checkbox" type="checkbox" id="checkbox" value="check">
+                     <div class="form__checkbox-mark"></div>
+                  <label class="form__checkbox-label" for="checkbox">Я согласен с <a class="form__checkbox-link"
+                        href="#">Правилами пользования приложением</a></label>
+                  <span class="star-third">*</span>
+               </div>
+               <span class="field-checkbox">Поле обязательно для заполнения</span>
+               <button class="form__button">Регистрация</button>
+            </form>
+         </div>
+      </main>
+   </div>
+   <script src="/script.js"></script>
+</body>
+
+</html>

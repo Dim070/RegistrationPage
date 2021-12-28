@@ -1,0 +1,84 @@
+/*@media screen and (max-width: 1440px) and (min-width: 769px) {
+   /*фиксированная верстка
+   .class {
+
+   }
+}*/
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+
+
+   .content {
+      width: 94.79vw;
+      height: 90.76vw;
+      border-radius: 2.60vw;
+      padding: 0 5.86vw;
+   }
+
+   .star-first {
+      top: auto;
+      left: -1.7vw;
+   }
+   
+   .star-second {
+      top: auto;
+      left: -1.7vw;
+   }
+   
+   .star-third {
+      top: 0;
+      left: -1.7vw;
+   }
+
+   .title {
+      margin-top: 4.95vw;
+      font-size: 7.81vw;
+   }
+
+
+   .form__input-item-email, .form__input-item-password {
+      font-size: 3.13vw;
+      margin-top: 1.43vw;
+   }
+
+   .form__input-email, .form__input-password {
+      width: 83.07vw;
+      font-size: 3.65vw;
+   }
+
+   .form__checkbox-wrapper {
+      margin-top: 1.9vh;
+   }
+
+   .form__checkbox-mark {
+      width: 4.17vw;
+      height: 4.17vw;
+   }
+
+   .form__input-checkbox:checked+.form__checkbox-mark::after {
+      font-size: 2.34vw;
+   }
+
+   .form__checkbox-label {
+      font-size: 2.34vw;
+   }
+
+   .form__button {
+      width: 28.65vw;
+      height: 10.42vw;
+      margin: 8.33vw auto 31.51vw auto;
+      font-size: 4.17vw;
+   }
+
+
+   .field-email {
+      font-size: 1.72vw;
+   }
+   .field-password {
+      font-size: 1.72vw;
+   }
+   .field-checkbox {
+      font-size: 1.72vw;
+   }
+
+}
